@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+    <link rel="stylesheet" href="style_cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header-site wrapper">
+      <h1>BagBag</h1>
+      <a href="index.html"
+        ><img src="images/logo.png" width="60px" alt="Logo"
+      /></a>
+      <nav class="header_nav">
+        <a href="index.html">Главная</a>
+        <a href="cart.html">
+          <i class="fa-solid fa-cart-shopping" id="iconCart"></i>
+          Корзина <span id="counter">0</span></a
+        >
+      </nav>
+    </header>
+    <main>
+      <div class="container-products wrapper">
+        <div class="product-header">
+          <h5 class="product-title">PRODUCT</h5>
+          <h5 class="price">PRICE</h5>
+          <h5 class="quantity">QUANTITY</h5>
+          <h5 class="total">TOTAL</h5>
+        </div>
+      </div>
+      <div class="products  wrapper">
+        <div class="product-info">
+          <i class="fa-solid fa-circle-xmark iconRemove"></i>
+          <img src="images/bag_black.png" alt="Подпись" />
+          <div class="product-name">Black Bag</div>
+        </div>
+        <div class="product-price">1200</div>
+        <!-- <i class="fa-solid fa-circle-chevron-left increase"></i> -->
+        <div class="amount">1</div>
+        <i class="fa-solid fa-circle-chevron-right= decrease"></i>
+        <div class="product-total">1200</div>
+      </div>
+    </main>
+    <script src="cart.js"></script>
+  </body>
+</html>
